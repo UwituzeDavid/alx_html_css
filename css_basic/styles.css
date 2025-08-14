@@ -2,8 +2,14 @@
 body {
     display: flex;
     flex-direction: column;
-    height: 100vh; /* Full viewport height */
+    height: 100vh;
     margin: 0;
+  }
+  
+  /* This rule applies only when <body class="works_on_smartphone"> is used */
+  .works_on_smartphone main {
+    display: flex;
+    flex-direction: column;
   }
   
   /* Make <main> a horizontal flex container */

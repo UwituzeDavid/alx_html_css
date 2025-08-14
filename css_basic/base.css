@@ -1,7 +1,4 @@
 body {
-  .works_on_smartphone main {
-    flex-direction: column;
-  }
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
