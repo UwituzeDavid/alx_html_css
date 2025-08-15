@@ -82,3 +82,23 @@ margin-top: 200px;
     color:#fff;
     font-weight: normal;
 }
+#heading2{
+    background-color: #c271ff;
+    color: #fff;
+    display: flex;
+    flex-direction: column 2;
+    height: 392px;
+    align-items: center;
+    padding-left: 300px;
+    left: 10%;
+    right: 10%;
+}
+#word {
+    padding-left: 20px;
+}
+h3 {
+    padding-left: 20px;
+}
+#heading2 p{
+    padding-left: 20px;
+}
