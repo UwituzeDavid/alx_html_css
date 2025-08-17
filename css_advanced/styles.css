@@ -38,7 +38,7 @@ header {
     justify-content: space-between;
 }
 .background {
-    background : url(../css_advanced/Images/Object.png);
+    background-image: url(Images/Object.png);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -82,6 +82,8 @@ margin-top: 200px;
     color:#fff;
     font-weight: normal;
 }
+
+/* Pink section */
 #heading2{
     background-color: #c271ff;
     color: #fff;
@@ -95,10 +97,174 @@ margin-top: 200px;
 }
 #word {
     padding-left: 20px;
+    line-height: 1.5;
+    margin-bottom: 10px;
 }
 h3 {
     padding-left: 20px;
 }
 #heading2 p{
     padding-left: 20px;
+}
+
+/* Tutorial section  */
+.tutorials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 450px;
+    margin-top: 200px;
+}
+#vid1 {
+    position: relative;
+    bottom: 100px;
+    left: 40%;
+}
+.v1 {
+    height: 208px;   
+}
+#first {
+    width: 180%;
+    font-size: 20px;
+}
+.tutorials span {
+    color: #c271ff;     
+} 
+
+.tutorials h2 {
+    display: block;
+    margin-bottom: 500px;
+}
+.tutorials2 {
+    width: 100%;
+    font-size: 20px;
+}
+.tutorials3 {
+    width: 100%;
+    font-size: 20px;
+}
+.tutorials4 {
+    width: 100%;
+    font-size: 20px;
+}
+.word {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.word2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.word3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+h4 {
+    position: relative;
+    right: 80px;
+    color: #c271ff;
+}
+.word1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.tutorials p {
+    font-size: 14px;
+    margin-top: 20px;
+}
+/* Membership-sec */
+
+.member-sec {
+    height: 502px;
+    background-color: #071629;
+    color: white;
+}
+
+.member-sec h2 {
+    text-align: center; 
+    margin: 0 auto;
+    padding: 50px;       
+}
+
+.imoji-div {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    margin: 70px 100px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+
+
+.smile img {
+   color: #c271ff;
+   margin-left: 50px;
+   margin-bottom: 10px;
+}
+
+.member-sec  button {
+    background-color: #c271ff;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    margin: 0 auto;
+    display: block;
+}
+ 
+/* F.A.Q section */
+.faq-sec {
+    background-color: white;
+}
+
+.faq-sec h2 {
+    text-align: center;
+    padding: 50px;
+}
+
+.faq-div {
+    display: flex;
+    padding: 0 100px;
+    gap: 40px;
+    
+}
+
+.faq1 {
+    padding: 0 100px;
+}
+
+.faq1 h3 {
+    margin: 20px;
+}
+
+/* Footer */
+.foot-all {
+   background-color: #071629;
+   color: white;
+}
+
+.foot-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+}
+
+.socials {
+   display: flex;
+   gap: 20px;
+}
+
+.foot-all p {
+    text-align: center;
+    font-size: 10px;
+    opacity: 0.2;
 }
