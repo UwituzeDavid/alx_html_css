@@ -1,0 +1,315 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+nav {
+    align-items: center ;
+    padding: 10px;
+    margin: 0;
+    display: inline-block;
+}
+nav a{
+    font-weight: bold;
+    padding: 0px 10px;
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+}
+nav a :hover{
+    color: #FF6565;
+    opacity: 0.9;
+}
+nav a :active{
+    color:#FF6565;
+    opacity: 0.9;
+}
+.sect1 {
+    bottom: 30%;
+    align-items: center;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    left: 30%;
+    position: absolute;    
+}
+.sect1 button {
+    background-color: #f75454;
+    border-radius: 30px;
+    border: none;
+    padding: 20px 40px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+.sect1 button :hover{
+    color:#FF6565;
+    opacity: 0.9;
+}
+.Sp1  {
+    font-weight: bold;
+    font-size: larger;
+}
+header {
+  background-image: url(/headphones/image/headphones_hero_1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+
+}
+
+.sect2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: black;
+
+}
+
+#he1 {
+    margin-top: 80px;
+    line-height: 1.6;
+    margin-bottom: 70px;
+    position: absolute;
+    left: 30%;
+}
+
+#he1 h1 {
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+
+
+}
+
+#he1 p {
+    padding: 50px;
+    text-align: center;
+}
+
+#what2 {
+    display: inline-block;
+    flex-direction: row;
+    margin-top: 500px;
+    margin-bottom: 40px;
+
+}
+#what3 {
+    display: inline-block;
+    flex-direction: row;
+    margin-top: 500px;
+    margin-bottom: 40px;
+}
+
+#what4 {
+    display: inline-block;
+    flex-direction: row;
+    margin-top: 500px;
+    margin-bottom: 40px;
+}
+
+#what5 {
+    display: inline-block;
+    flex-direction: row;
+    margin-top: 500px;
+    margin-bottom: 40px;
+}
+
+#what4 img {
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+}
+
+#what5 img {
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+}
+
+#what3 img {
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+
+}
+
+#what2 img {
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+}
+
+.sect3 {
+
+    align-items: center;
+    padding: 50px ;
+    display: flex;
+    text-align: center;
+    background-image: url(/headphones/image/headphones_hero_2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; 
+    flex-direction: column;
+}
+#h1 {
+    margin-top: 300px;
+    margin-bottom: 60px;
+    position: absolute;
+    left: 10%;
+}
+.mv1 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding-left: 30px;
+    bottom: 100px;
+    text-align: center;
+}
+
+
+#h2 {
+    margin-top: 520px;
+
+    margin-bottom: 60px;
+    position: absolute;
+    left: 10%;
+    
+}
+.mv2 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 300px;
+    bottom: 350px;
+    
+    text-align: center;
+}
+#h3 {
+    margin-top: 725px;
+    margin-bottom: 60px;
+    position: absolute;
+    left: 10%;
+}
+
+.mv3 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 550px;
+    text-align: center;
+    left: 600px;
+}
+#h4 {
+    margin-top: 940px;
+
+    margin-bottom: 60px;
+    position: absolute;
+    left: 10%;
+    
+}
+
+.mv4 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 750px;
+    left: 900px;
+    text-align: center;
+}
+
+
+
+#he2 h2 {
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+    margin: 30px;
+}
+
+#he2 p {
+    padding: 50px;
+    text-align: center;
+    font-size: large;
+}
+.sect3 h4 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+
+.sect3 h5 {
+    font-weight: bold;
+    font-size: xx-large;
+}
+ 
+
+#h1 img {
+        height: 200px;
+        width: 200px;
+}
+
+#h2 img {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 300px;
+    bottom: 220px;
+ 
+}
+
+#h3 img {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 600px;
+    bottom: 430px;
+}
+#h4 img {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 900px;
+    bottom: 640px;
+}
+
+.sect4  {
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+    padding: 5px;
+    margin-bottom: 100px;
+    align-content: center;
+}
+
+#form h1 {
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: xx-large;
+    padding: 40px;
+}
+
+#form p {
+    text-align: center;
+    margin: 20px;
+}
+.sect4 button {
+    border-radius: 60px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #f08e8e;
+    padding: 20px 30px;
+    position: relative;
+    left: 100px;
+    color: white;
+}
