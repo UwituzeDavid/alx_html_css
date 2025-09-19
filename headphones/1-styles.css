@@ -102,8 +102,8 @@ header {
 
 }
 #what3 {
-    display: inline-block;
-    flex-direction: row;
+    display: inline-flex;
+    flex-direction: column;
     margin-top: 500px;
 }
 
@@ -123,25 +123,25 @@ header {
 #what4 img {
     width: 100px;
     height: 100px;
-    padding: 30px;
+    padding: 40px;
 }
 
 #what5 img {
     width: 100px;
     height: 100px;
-    padding: 30px;
+    padding: 40px;
 }
 
 #what3 img {
     width: 100px;
     height: 100px;
-    padding: 30px;
+    padding: 40px;
 
 }
 
 #what2 img {
     width: 100px;
     height: 100px;
-    padding: 30px;
+    padding: 40px;
 }
 
