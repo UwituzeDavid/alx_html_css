@@ -103,8 +103,8 @@ header {
 
 }
 #what3 {
-    display: inline-block;
-    flex-direction: row;
+    display: inline-flex;
+    flex-direction: column;
     margin-top: 500px;
     margin-bottom: 40px;
 }
@@ -312,6 +312,9 @@ header {
     position: relative;
     left: 100px;
     color: white;
+}
+.sect4 hr {
+    width: 340px;
 }
 
 footer {
